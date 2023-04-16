@@ -5,7 +5,7 @@ var birthYear = prompt("Enter your year of birth :");
 var monthNumber = new Date(Date.parse(birthMonth + " 1, 2000")).getMonth() + 1;
 
 if (isNaN(monthNumber)) {
-  alert("Invalid month name. Please enter a valid month name (in English words, with both upper and lower case).");
+  alert("Invalid month name. Please enter a valid month name.");
 } 
 else {
 
